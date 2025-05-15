@@ -1,5 +1,5 @@
 # input_processing.py
-# <YOUR NAME>, ENSF 692 Spring 2025
+# Wiliam Watson, ENSF 692 Spring 2025
 # A terminal-based program for processing computer vision changes detected by a car.
 # Detailed specifications are provided via the Assignment 2 README file.
 # You must include the code provided below but you may delete the instructional comments.
@@ -23,6 +23,10 @@ class Sensor:
         self.ped_status = "no"
         self.vehicle_status = "no"
 
+    
+    # Arguments
+    # status_type: user input string ("1", "2", or "3")
+    # status_change: user input string ("red", "yellow", "green", "yes", or "no")
     def update_status(self, status_type, status_change): # You may decide how to implement the arguments for this function
         if status_type == "1":
             self.light_colour = status_change
