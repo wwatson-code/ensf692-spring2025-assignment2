@@ -124,15 +124,10 @@ def main():
             print("You must select either 1, 2, 3, or 0")
 
 
-    
+    # exiting program
     print("Closing Vision Detection Program")    
     
     
-
-
-
-
-
 # Conventional Python code for running main within a larger program
 # No additional code should be included below this
 if __name__ == '__main__':
